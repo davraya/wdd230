@@ -1,0 +1,26 @@
+@media screen and (min-width: 1095px){
+    body{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 150px 1fr;
+    }
+
+    .nike{
+        width: 350px;
+        grid-row: 2 / 1 span;
+        grid-column: 3 / 1 span;
+    }
+
+    .nike img{
+        width: 300px;
+    }
+
+    header{
+        grid-column: 1 / 3 span;
+    }
+
+    footer{
+        grid-column: 1 / 3 span;
+    }
+
+    }

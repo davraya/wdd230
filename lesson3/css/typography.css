@@ -1,0 +1,20 @@
+aside{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.headings{
+    font-family: Dongle;
+    font-size: 35px;
+}
+
+.paragraphs{
+    font-family: Roboto;
+    font-size: 30px;
+}
+
+.navigation{
+    font-family: Oswald;
+    font-size: 35px;
+
+}

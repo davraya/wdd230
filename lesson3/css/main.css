@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+
+section{
+    border: 1px black solid;
+    text-align: center;
+    background-color: #FFAB76;
+    margin: 10px;
+    padding: 5px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+nav ul li{
+    padding: 0px;
+}
+
+nav ul a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: black;
+    padding: 10px;
+    
+}
+
+nav a:hover{
+    background-color: gray;
+    color: white;
+}
+
+body{
+    background-color: #BAFFB4;
+    margin: 0px;
+}
+
+header{
+    text-align: center;
+    background-color: #FFFDA2;
+    margin: 0;
+}
+
+h1{
+    margin: 0;
+    padding: 15px;
+    font-size: 3em;
+}
+
+h1,h2,h3,h4{
+    font-family: Dongle;
+}
+
+h3{
+    font-size: 2em;
+}
+p{
+    font-family: Roboto;
+    font-size: .8em;
+    font-weight: bolder;
+}
+
+a{
+    font-family: Oswald;
+}
+
+

@@ -1,0 +1,12 @@
+img{
+    width: 75px;
+}
+
+section{
+    grid-row: 2 / span 1;
+}
+
+aside{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}

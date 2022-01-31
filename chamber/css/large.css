@@ -1,0 +1,22 @@
+@media only screen and (min-width: 1000px) {
+    li{
+        display: block;
+    }
+    
+    ul{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .ham{
+        display: none;
+    }
+
+    .navigation{
+        grid-column: 3 / span 1;
+        grid-row: 1;
+    }
+
+    .icons{
+        grid-column: 4 / span 1;
+    }
+  }

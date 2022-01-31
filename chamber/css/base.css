@@ -1,0 +1,60 @@
+.responsive li{
+    display: block;
+}
+
+li{
+    display: none;
+}
+
+.ham{
+    display: block;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 80px 100px auto 80px;
+    grid-template-rows: 1fr 50px;
+}
+
+.site_title{
+    grid-column: 2 / span 1;
+}
+
+.navigation{
+    grid-column: 4 / span 1;
+    height: 125px;
+    text-align: center;
+}
+
+
+.date{
+    grid-column: 1 / span 4;
+}
+
+.icons{
+    grid-column: 3 / span 1;
+    /* text-align: center; */
+    align-self: center;
+    justify-self: end;
+}
+
+ul{
+    padding: 0px;
+}
+
+h1{
+    font-size: 24px;
+}
+
+h2{
+    font-size: 16px;
+}
+
+main{
+    display: grid;
+    grid-template-rows: 200px 200px 200px 200px 420px;
+}
+main aside{
+    display: grid;
+    grid-template-rows: 200px 200px;
+}

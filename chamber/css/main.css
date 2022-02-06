@@ -26,6 +26,7 @@ h1, h2{
 
 .hero{
     border: 1px solid black;
+    position: relative;
 }
 
 main section{
@@ -54,4 +55,56 @@ footer{
     text-align: center;
     background-color: #f7f467;
     padding: 10px;
+}
+
+.hero{
+    background-image: url(/img/background.jpg);
+}
+
+.hero button{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: green;
+    color: black;
+    border-radius: 15px;
+    padding: 10px;
+
+    
+}
+
+.hero h3{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+section{
+    text-align: center;
+    padding: 10px;
+}
+
+.join button{
+    background-color: lightgreen;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+main section{
+    background-color: #ffab7f;
+}
+
+main aside{
+    background-color: #ffab7f;
+}
+
+nav a:hover{
+    background-color: green;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    padding: 15px;
 }

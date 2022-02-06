@@ -61,4 +61,12 @@
     grid-column: 1 / span 3;
 
     }
+
+    .spotlight3{
+        display: none;
+    }
+    
+    .join{
+        display: none;
+    }
   }

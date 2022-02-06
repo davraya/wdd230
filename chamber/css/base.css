@@ -58,3 +58,11 @@ main aside{
     display: grid;
     grid-template-rows: 200px 200px;
 }
+
+.spotlight3{
+    display: none;
+}
+
+.join{
+    display: none;
+}

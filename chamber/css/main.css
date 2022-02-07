@@ -58,7 +58,7 @@ footer{
 }
 
 .hero{
-    background-image: url(/chamber/img/background.jpg);
+    background-image: url("/chamber/img/background.jpg");
 }
 
 .hero button{

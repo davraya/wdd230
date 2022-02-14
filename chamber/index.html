@@ -13,11 +13,12 @@
     <link rel="stylesheet" href="css/meduim.css">
     <link rel="stylesheet" href="css/large.css">
     <script src="js/script.js" defer></script>
+    <script src="js/windchill.js" defer></script>
     <link rel="shortcut icon" href="img/favicon.ico">
 </head>
 <body>
     <header>
-        <img class="logo" src="img/Clogo.jpg" alt="Logo">
+        <img class="logo" src="img/Clogo.webp" alt="Logo">
         <section class="site_title">
             <h1>Rexburg</h1>
             <h2>Chamber of Commerce</h2>
@@ -39,6 +40,11 @@
     </header>
     <main>
         <section class="hero">
+            <picture>
+                <source srcset="img/hero500.jpg" media="(min-width: 700px) and (max-width: 999px)">
+                <source srcset="img/hero750.jpg" media="(min-width: 1000px)">
+                <img src="img/hero250.jpg" alt="hero image" >
+            </picture>
             <h3>Welcome to Reburg</h3>
             <button>Join the Chamber</button>
         </section>
@@ -50,6 +56,7 @@
         <section class="weather">
             <h3>Weather</h3>
             <p>☁️ Cloudy -5°C</p>
+            <p>Windchill: <span id="windChill"></span>&deg;</p>
         </section>
         <section class="news">
             <h3>News Release</h3>
@@ -72,7 +79,7 @@
         </aside>
     </main>
     <footer>
-        <img class="footer_logo" src="img/Clogo.jpg" alt="logo">
+        <img class="footer_logo" src="img/Clogo.webp" alt="logo">
         <section class="footer_address">
             <h2>Rexburg Chamber of Commerce</h2>
             <p>167 W Main St #2</p>

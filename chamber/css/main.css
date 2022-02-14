@@ -57,9 +57,9 @@ footer{
     padding: 10px;
 }
 
-.hero{
+/* .hero{
     background-image: url("../img/background.jpg");
-}
+} */
 
 .hero button{
     position: absolute;
@@ -107,4 +107,8 @@ nav a:hover{
 a{
     text-decoration: none;
     padding: 15px;
+}
+
+.hero img{
+    height: 100%;
 }

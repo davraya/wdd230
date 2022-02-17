@@ -5,12 +5,14 @@ function preloadImage(img){
     if(!src){
         return;
     }
-    img.src = src;
+    
+    img.src = src
+    img.addEventListener("load", () => img.removeAttribute("data-src"))
 
 }
 imgOptions = {
-    threshold: 1,
-    rootMargin: "0px 0px 200px 0px"
+    threshold: 0.4,
+    rootMargin: "0px 0px 50px 0px"
 };
 
 const imgObserver = new IntersectionObserver( (entires, imgObserver) => {

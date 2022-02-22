@@ -112,3 +112,13 @@ a{
 .hero img{
     height: 100%;
 }
+
+.discover_pictures{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.discover_pictures img:hover{
+    box-shadow: 0 0 50px #333;  
+}

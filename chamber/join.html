@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join</title>
+    <link rel="stylesheet" href="css/noramlize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/meduim.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script src="js/lazyload.js" defer></script>
+    <script src="js/days_between_visits.js" defer></script>
+    <script src="js/date_in_form.js" defer></script>
+    <link rel="shortcut icon" href="img/favicon.ico">
+</head>
+<body>
+    <header>
+        <img class="logo" src="img/Clogo.webp" alt="Logo">
+        <section class="site_title">
+            <h1>Rexburg</h1>
+            <h2>Chamber of Commerce</h2>
+        </section>
+        <section class="icons">
+            <a href="https://www.facebook.com/"><img class="icon" src="img/fb_icon.png" alt="facebook icon"></a>
+            <a href="https://www.linkedin.com//"><img class="icon" src="img/in_icon.png" alt="linkdin icon"></a>
+        </section>
+        <nav class="navigation">
+            <ul>
+                <li class="ham">&#9776;</li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="#">Page 3</a></li>
+            </ul>
+        </nav>
+        <p class="date"></p>
+    </header>
+    <section class="form-info">
+        <div class="form">
+            <form action="thankyou.html" method="get">
+                <fieldset>
+                    <legend>Aplicant Information</legend>
+                    <label class="top">First Name*<input type="text" name="fname" required></label>
+                    <label class="top">Last Name*<input type="text" name="lname" required></label>
+                    <label class="top">Buisiness Title <input type="text" name="title"></label>
+                    <label class="top">Email*<input type="text" required name="email" placeholder="david@gmail.com"></label>
+                    <label class="top">Cell Phone Number*<input type="text" name="tel" required></label>
+                    <label class="top">Buisiness Name*<input type="text" name="business" required></label>
+                    <input type="hidden" name="date" value="CurrentDate" id="date"> 
+                </fieldset>
+                <fieldset>
+                    <legend>Memebership Level</legend>
+                    <label class="sbs"> <input type="radio" name="level" value="np-memebrship"> Non Profit Memebership</label>
+                    <label class="sbs"> <input type="radio" name="level" value="bronze-membership"> Bronze Memebership</label>
+                    <label class="sbs"> <input type="radio" name="level" value="silver-memebrship"> Silver Memebership</label>
+                    <label class="sbs"> <input type="radio" name="level" value="gold-memebrship"> Gold Memebership</label>
+                </fieldset>
+                <fieldset>
+                    <legend>About Your Buisiness</legend>
+                    <textarea name="about-business" id="" cols="30" rows="5"></textarea>
+                </fieldset>
+
+                <input type="submit" value="Join" class="submitBtn">
+            </form>
+        </div>
+
+        <div class="info">
+            <h1>Memebership Levels Benefit</h1>
+            <h3>NP Membership</h3>
+            <p>For non profit organizations and there is no fee</p>
+            <h3>Bronze Membership</h3>
+            <p>15% discount on events</p>
+            <p>10% discount on advertising</p>
+            <p>Fee of $50/month</p>
+            <h3>Silver Membership</h3>
+            <p>25% discount on events</p>
+            <p>15% discount on advertising</p>
+            <p>Free participation in the trade fair</p>
+            <p>Fee of $100/month</p>
+            <h3>Gold Membership</h3>
+            <p>50% discount on events</p>
+            <p>50% discount on advertising</p>
+            <p>Free participation in the trade fair</p>
+            <p>5 free featured ads per year</p>
+            <p>1 free training per quarter</p>
+            <p>Fee of $250/month</p>
+
+        </div>
+    </section>
+
+    <footer>
+        <img class="footer_logo" src="img/Clogo.webp" alt="logo">
+        <section class="footer_address">
+            <h2>Rexburg Chamber of Commerce</h2>
+            <p>167 W Main St #2</p>
+            <p>Rexburg, ID 83440</p>
+        </section>
+        <section class="footer_contact">
+            <p>rexcham@info.com</p>
+            <p>(208) 726-3386</p>
+            <p><img class="location" src="img/location_icon.png" alt="Location icon"> Location Map</p>
+        </section>
+        <p class="class_info">&copy;2022 Rexburg Chamber | <b>David Raya</b> | WDD 230 Project</p>
+        <p class="lastModification">(A date)</p>
+    </footer>
+    
+</body>
+</html>

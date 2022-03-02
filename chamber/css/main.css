@@ -122,3 +122,11 @@ a{
 .discover_pictures img:hover{
     box-shadow: 0 0 50px #333;  
 }
+
+
+/* --------FORM-----------*/
+.form{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 300px;
+}

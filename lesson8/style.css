@@ -40,6 +40,7 @@ tbody tr:nth-child(odd) {
 
 body{
     font-family: "Ubuntu", sans-serif;
+    width: 50%;
 }
 
 .sales{

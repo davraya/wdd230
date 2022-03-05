@@ -1,3 +1,4 @@
+
 .responsive li{
     display: block;
 }
@@ -113,3 +114,29 @@ form label.sbs{
     padding: .75rem 1.5rem;
     
 }
+
+/*----------Directory---------*/
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+.cards section {
+
+    text-align: left;
+    width: 300px;
+    padding: 30px;
+ 
+}
+
+.cards section a{
+    padding: 0;
+}
+
+
+.dir_image{
+    display: none;
+}
+
+

@@ -72,5 +72,26 @@
         grid-row: 3;
     }
 
+      /* -------Directory---------- */
+    .dir_image{
+        display: inline;
   }
+
+    .cards section h2{
+        display: none;
+    }
+
+    .cards section {
+        border: 1px solid navy;
+        background-color: #ffab7f;
+        padding: 30px;
+        text-align: left;
+        width: 300px;
+        margin: 20px;
+    }
+
+}
+
+
+
 

@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="This site is a chamber of commerce for local buisiness owners
-     in the Rexubrg area.">
-    <title>Rexburg Chamber of Commerce</title>
+    <script src="js/business.js" defer></script>
     <link rel="stylesheet" href="css/noramlize.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/meduim.css">
     <link rel="stylesheet" href="css/large.css">
+    <script src="js/lazyload.js" defer></script>
+    <script src="js/days_between_visits.js" defer></script>
     <script src="js/script.js" defer></script>
-    <script src="js/windchill.js" defer></script>
     <link rel="shortcut icon" href="img/favicon.ico">
 </head>
 <body>
@@ -38,46 +37,9 @@
         </nav>
         <p class="date"></p>
     </header>
-    <main>
-        <section class="hero">
-            <picture>
-                <source srcset="img/hero500.jpg" media="(min-width: 700px) and (max-width: 999px)">
-                <source srcset="img/hero750.jpg" media="(min-width: 1000px)">
-                <img src="img/hero250.jpg" alt="hero image" >
-            </picture>
-            <h3>Welcome to Reburg</h3>
-            <button>Join the Chamber</button>
-        </section>
-        <section class="event">
-            <h3>Ribbon Cutting</h3>
-            <p>🍔The Burger Place</p>
-            <p>Join us for our grand openin, Friday at 7 p.m.</p>
-        </section>
-        <section class="weather">
-            <h3>Weather</h3>
-            <p>☁️ Cloudy -5°C</p>
-            <p>Windchill: <span id="windChill"></span>&deg;</p>
-        </section>
-        <section class="news">
-            <h3>News Release</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis, corporis! Minus ducimus dolorem a nobis dicta. Autem, atque sed doloribus sapiente provident cumque enim, omnis ducimus molestias vero possimus voluptate.</p>
-        </section>
-        <section class="join">
-            <button>Join Us!</button>
-            <p>Find out how being a member of our chamber of commerce will benefit your organization</p>
-        </section>
-        <aside class="spotlight">
-            <section class="spotlight1">
-                <p>Spotlight 1</p>
-            </section>
-            <section class="spotlight2">
-                <p>Spotlight 2</p>
-            </section>
-            <section class="spotlight3">
-                <p>Spotlight 3</p>
-            </section>
-        </aside>
-    </main>
+    
+    <div class="cards"></div>
+
     <footer>
         <img class="footer_logo" src="img/Clogo.webp" alt="logo">
         <section class="footer_address">

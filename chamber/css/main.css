@@ -27,6 +27,7 @@ h1, h2{
 .hero{
     border: 1px solid black;
     position: relative;
+    padding: 0;
 }
 
 main section{
@@ -37,6 +38,10 @@ main section{
 aside{
     border: 1px solid black;
     margin: 10px;
+}
+
+aside section{
+    padding: 0;
 }
 
 .location{
@@ -57,9 +62,9 @@ footer{
     padding: 10px;
 }
 
-/* .hero{
-    background-image: url("../img/background.jpg");
-} */
+picture img{
+    object-fit: scale-down;
+}
 
 .hero button{
     position: absolute;

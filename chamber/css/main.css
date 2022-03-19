@@ -63,7 +63,7 @@ footer{
 }
 
 picture img{
-    object-fit: scale-down;
+    width:90%;
 }
 
 .hero button{

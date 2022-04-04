@@ -1,0 +1,68 @@
+
+header{
+    background-color: #90E0EF;
+    margin: 0px;
+    padding: 10px;
+    display: flex;
+}
+
+main{
+    padding: 10px;
+}
+
+footer{
+    padding: 10px;
+    margin: 0px;
+    background-color: #90E0EF;
+}
+
+section{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+}
+
+button{
+    padding: 10px;
+    margin: 15px;
+    border-radius: 10px;
+    font-size: 200%;
+}
+
+/* ----Temple Info----- */
+
+.temple-hours p{
+    margin: 0px;
+}
+
+.temple-info img{
+    border-radius: 10px;
+    
+}
+
+/* ---Ham Menu---- */
+.responsive li{
+    display: block;
+}
+
+li{
+    display: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.ham{
+    display: block;
+    font-size: 200%;
+
+}
+
+/* ---Social media icons--- */
+
+.contact-info i{
+    font-size: 200%;
+    color: grey;
+}

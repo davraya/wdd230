@@ -1,4 +1,4 @@
-const requestURL = '../json/temples.json';
+const requestURL = 'https://davraya.github.io/wdd230/final-website/json/temples.json';
 
 fetch(requestURL)
   .then(function (response) {

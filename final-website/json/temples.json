@@ -4,31 +4,31 @@
             "name" : "Idaho Falls Idaho Temple",
             "address" : "1000 Memorial Dr, Idaho Falls, ID 83402",
             "phone" : "2085227669",
-            "image" : "../images/idahofalls-temple.jpg"
+            "image" : "idahofalls-temple.jpg"
         },
         {
             "name" : "Pocatello Idaho Temple",
             "address" : "3100 Butte St, Pocatello, ID 83201",
             "phone" : "2086467730",
-            "image" : "../images/pocatello-temple.jpg"
+            "image" : "pocatello-temple.jpg"
         },
         {
             "name" : "Rexburg Idaho Temple",
             "address" : "750 S 2nd E, Rexburg, ID 83440",
             "phone" : "2086560880",
-            "image" : "../images/rexburg-temple.jpg"
+            "image" : "rexburg-temple.jpg"
         },
         {
             "name" : "Salt Lake Utah Temple",
             "address" : "50 N W Temple St, Salt Lake City, UT 84150",
             "phone" : "8012402640",
-            "image" : "../images/saltlake-temple.jpg"
+            "image" : "saltlake-temple.jpg"
         },
         {
             "name" : "Provo City Center Temple",
             "address" : "50 S University Ave, Provo, UT 84601",
             "phone" : "8013432700",
-            "image" : "../images/provo-temple.jpg"
+            "image" : "provo-temple.jpg"
         }
     ]
 }

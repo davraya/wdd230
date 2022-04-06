@@ -18,7 +18,7 @@ fetch(requestURL)
     let address = document.createElement('p')
     let phone = document.createElement('p')
     h2.textContent = temple.name;
-    image.setAttribute('src', temple.image);
+    image.setAttribute('src', `../images/${temple.image}`);
     image.setAttribute('alt', temple.name)
     address.innerHTML = `Address: ${temple.address}`
     phone.innerHTML = `Phone: ${temple.phone}`

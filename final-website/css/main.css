@@ -32,6 +32,33 @@ button{
     font-size: 200%;
 }
 
+h1{
+    font-family: 'Dongle', sans-serif;
+    font-size: 55px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+h2{
+    font-family: 'Dongle', sans-serif;
+    font-size: 46px;
+}
+
+h3{
+    font-family: 'Dongle', sans-serif;
+    font-size: 40px;
+}
+
+a{
+    font-family: 'Oswald', sans-serif;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+
 /* ----Temple Info----- */
 
 .temple-hours p{

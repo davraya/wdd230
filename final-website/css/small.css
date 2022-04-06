@@ -8,4 +8,36 @@
     main{
         display: grid;
     }
+
+    div section img{
+        max-width: 200px;
+    }
+
+    /* ---services page--- */
+    .services{
+        display: flex;
+        flex-direction: column;
+    }
+    /* ---wedding page--- */
+
+    .reception{
+        text-align: center;
+    }
+    
+    .wedding-img{
+        max-width: 300px;
+        
+    }
+
+    /* --- missionary page --- */
+    .missionary{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .suit-img{
+        max-width: 300px;
+        align-self: center;
+    }
+
 }

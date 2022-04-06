@@ -1,0 +1,58 @@
+@media only screen and (min-width: 701px){
+
+    /* ---temples page--- */
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .cards:nth-child(even){
+        
+        max-width: 200px;
+    }
+
+    div section img{
+        max-width: 200px;
+    }
+
+    /* ---home page--- */
+    .content{
+        display: grid;
+    }
+    
+    .contact-info{
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .weather-info{
+        grid-row: 2;
+    }
+
+    .temple-info{
+        grid-column: 2;
+    }
+
+    .temple-info img{
+        width: 200px;
+    }
+
+    /* ---wedding page--- */
+
+    .reception{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .wedding-img{
+        justify-self: center;
+    }
+
+    .services{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+

@@ -1,0 +1,44 @@
+@media only screen and (min-width: 1000px) {    
+    li{
+        display: block;
+        padding: 10px;
+    }
+    
+    ul{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .ham{
+        display: none;
+    }
+
+    .navigation{
+        grid-column: 3 / span 1;
+        grid-row: 1;
+    }
+
+    /* ---navigation hover effect---- */
+
+    ul li:hover{
+        background-color: lightgray;
+    }
+    
+    /* ---- sub-pages --- */
+    .sub-page{
+    display: none;
+    }
+
+    .sub-pages{
+        display: block;
+        position: absolute;
+        top: 35px;
+        background-color: rgb(107, 105, 105);
+        width: 150px;
+    }
+
+    .last-sub-page{
+        top: 70px;
+    }
+
+   
+}

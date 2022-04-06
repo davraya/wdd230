@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Inn & Suits</title>
+    <script src="js/ham.js" defer></script>
+    <script src="js/temples.js"></script>
+    <script src="js/sub-page.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+
+    <header>
+        <h1>Temple Inn & Suits</h1>
+        <nav class="navigation">
+            <ul>
+                <li class="ham">&#9776;</li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="temples.html">Temples</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <div class="services">
+                <li><a href="services.html">Services</a></li>
+                <li class="sub-page"><a href="reception.html">Reception</a></li>
+                <li class="sub-page last-sub-page"><a href="missionary.html">Full-time Temple Missionary</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="form">
+            <form action="thankyou.html" method="get">
+                <fieldset>
+                    <legend>Aplicant Information</legend>
+                    <label>First Name*<input type="text" name="fname" required></label>
+                    <label>Last Name*<input type="text" name="lname" required></label>
+                    <label>Email*<input type="text" required name="email" placeholder="david@gmail.com"></label>
+                    <label>Cell Phone Number*<input type="text" name="tel" required></label>
+                    <legend>Select a temple</legend>
+                    <select name="temples">
+                        <option value="rexburg">Rexburg Idaho Temple</option>
+                        <option value="pocatello">Pocatello Idaho Temple</option>
+                        <option value="slc">Salt Lake Utah Temple</option>
+                        <option value="boise">Boise Idaho Temple</option>
+                        <option value="twin-falls">Twin Falls Idaho Temple</option>
+                        <option value="provo">Provo City Utha Temple</option>
+                    </select>
+                    <input type="date" name="trip-start" value="2022-07-22" min="2022-01-01" max="2023-12-31" class="date">
+                    <legend>Comments about your accomodation</legend>
+                    <textarea name="about-business" id="" cols="30" rows="5"></textarea>
+                </fieldset>
+
+
+                <input type="submit" value="Join" class="submitBtn">
+            </form>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Headquarter: 4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+    </footer>
+    
+</body>
+</html>

@@ -88,6 +88,8 @@ li{
 
 a{
     text-decoration: none;
+    color: black;
+    font-size: 25px;
 }
 
 .ham{
@@ -104,7 +106,7 @@ a{
 }
 
 
-/* ----form----- */
+/* ----form page----- */
 
 fieldset{
     display: flex;
@@ -146,15 +148,26 @@ select{
     margin: 10px;
 }
 
-/* ---services page---- */
-/* .services{
+.form{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-} */
-
+    justify-items: center;
+}
 
 /* --- missionary page--- */
 .missionary{
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+/* --- services pages --- */
+
+.specialized-services{
+    padding: 50px;
+}
+
+
+/* --- thank you page --- */
+.thank-you{
+    font-size: 160px;
+    font-family: 'Courier New', Courier, monospace;
 }
